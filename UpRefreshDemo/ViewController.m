@@ -45,7 +45,7 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     
-    [self setupsetupUpRefresh];
+    [self setupUpRefresh];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -53,7 +53,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)setupsetupUpRefresh
+- (void)setupUpRefresh
 {
     FooterView *refreshFooterView = [FooterView refreshFooterView];
     refreshFooterView.hidden = YES;
